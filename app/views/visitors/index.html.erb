@@ -2,20 +2,19 @@
 <div class="container">
     
     <nav class="navbar fixed-top" style="background-color: #d9ffb3;">
-         <a class="navbar-brand" href="#">COMMUNITY  HEALTH</a>
-        <p><%= link_to 'Sign Out', destroy_user_session_path, method: :delete %> </p>
+         <a class="navbar-brand" href="/">COMMUNITY HEALTH</a>
+        <p><%= link_to 'Sign Out', destroy_user_session_path, method: :delete %></p>
     </nav>
 
-
-    <nav id="navbar" class="navbar navbar-expand-sm" style="background-color: #d9ffb3;">>
-        <a class="navbar-brand" href="#"></a>  
+    <nav id="navbar" class="navbar navbar-expand-sm" style="background-color: #d9ffb3;">
+        <a class="navbar-brand" href="#">Home</a>  
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
         </button>
     
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                 <a class="nav-item nav-link active" href="#"> Home <span class="sr-only">(current)</span></a>
+<!--                  <a class="nav-item nav-link active" href="#"> Home <span class="sr-only">(current)</span></a> -->
                  <a class="nav-item nav-link" href="/users/sign_up">Register<span class="sr-only">Register</span></a>
                  <a class="nav-item nav-link" href="/users/sign_in">Sign-In<span class="sr-only">Sign In</span></a> 
                  <a class="nav-item nav-link" href="/incidents">View-Incidents<span class="sr-only">View Incidents</span></a>
@@ -53,4 +52,5 @@
     <p><%= link_to 'Register', new_user_registration_path %> </p>
     <p><%= link_to 'Report an Illness Incident', new_incident_path %> <%= Incident.count %> incidents reported </p>
     <p><%= link_to 'Sign Out', destroy_user_session_path, method: :delete %> </p>
-       -->
+      
+ -->
