@@ -10,8 +10,19 @@ img {
 // override for the 'Home' navigation link
 .navbar-brand {
   font-size: inherit;
+  word-spacing: 10px;
   }
+h1 {
+   font-family: verdana, arial, halvetica, sans-serif;
+    font-size: 20px;
+    line-height: 25px; 
+}
 
+#navbar {
+    font-family: verdana, arial, halvetica, sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+}
 // THESE ARE EXAMPLES YOU CAN MODIFY
 // create your own classes
 // to make views framework-neutral

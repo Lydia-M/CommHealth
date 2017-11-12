@@ -1,3 +1,10 @@
+<nav class="navbar fixed-top" style="background-color: #d9ffb3;">
+     <a class="navbar-brand" href="#">COMMUNITY  HEALTH</a>
+     <p><%= link_to 'Sign Out', destroy_user_session_path, method: :delete %> </p>
+</nav>
+
+
 <h3>User</h3>
 <p>Name: <%= @user.name if @user.name %></p>
 <p>Email: <%= @user.email if @user.email %></p>
+

@@ -1,6 +1,13 @@
+<nav class="navbar fixed-top" style="background-color: #d9ffb3;">
+     <a class="navbar-brand" href="#">COMMUNITY  HEALTH</a>
+     <p><%= link_to 'Sign Out', destroy_user_session_path, method: :delete %> </p>
+</nav>
+
+
 <h1>Editing Incident</h1>
 
 <%= render 'form', incident: @incident %>
 
 <%= link_to 'Show', @incident %> |
 <%= link_to 'Back', incidents_path %>
+
